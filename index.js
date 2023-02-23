@@ -16,7 +16,7 @@ io.on("connection", (socket) => {
   })
 });
 
-const port = 5000;
+const port = process.env.port || 5000;
 
 const userRouter = require('./routers/userRouter');
 const filterRouter = require('./routers/filterRouter');
