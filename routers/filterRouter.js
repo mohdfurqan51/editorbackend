@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 // importing user model
-const Model = require('../models/filterModel');
+const Model = require('../Models/filterModel');
 
 router.post('/add', (req, res) => {
     console.log(req.body);
