@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbUrl = `mongodb+srv://mohdfurqan:F81769918@cluster0.mfse9nf.mongodb.net/imageeditor?retryWrites=true&w=majority`;
+const dbUrl = `mongodb+srv://mohdfurqan:5TB0ihPiOl2os2yY@cluster0.mfse9nf.mongodb.net/imageeditor?retryWrites=true&w=majority`;
 
 // asynchrounous function
 // this function will return a promise
